@@ -1,0 +1,1250 @@
+[
+  {
+    "answer_id": "q1_train_001",
+    "question_id": "q1",
+    "style": "x_type_full_correct",
+    "answer_text": "Chlorophyll in plant cells absorbs red and blue light for photosynthesis but reflects green light, which is why plants appear green to us.",
+    "ai_suggested_scores": {
+      "q1_c1": 2,
+      "q1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q1_train_002",
+    "question_id": "q1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "Plant cells contain a pigment called chlorophyll, which plays a central role in photosynthesis. Chlorophyll strongly absorbs light in the red and blue wavelengths, which it uses to power the conversion of light energy into chemical energy. However, it does not absorb green wavelengths of light \u2014 instead it reflects them back, and that reflected green light is what we perceive when we look at a leaf.",
+    "ai_suggested_scores": {
+      "q1_c1": 2,
+      "q1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q1_train_003",
+    "question_id": "q1",
+    "style": "x_type_partial_correct",
+    "answer_text": "Plants look green because chlorophyll reflects green light instead of absorbing it.",
+    "ai_suggested_scores": {
+      "q1_c1": 2,
+      "q1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q1_train_004",
+    "question_id": "q1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Plants are green because of the way sunlight bends when it passes through their leaves, similar to how a prism splits light into colors.",
+    "ai_suggested_scores": {
+      "q1_c1": 0,
+      "q1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q2_train_001",
+    "question_id": "q2",
+    "style": "x_type_full_correct",
+    "answer_text": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of low solute concentration to a region of high solute concentration, until equilibrium is reached. A common example is a raisin swelling up when placed in water.",
+    "ai_suggested_scores": {
+      "q2_c1": 2,
+      "q2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q2_train_002",
+    "question_id": "q2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "Osmosis refers to the passive diffusion of water across a selectively permeable membrane. Water moves from the side with lower solute concentration (higher water potential) to the side with higher solute concentration (lower water potential), continuing until the concentrations equalize on both sides. This is why plant root hair cells can absorb water from the soil, since the soil water has a lower solute concentration than the cell sap.",
+    "ai_suggested_scores": {
+      "q2_c1": 2,
+      "q2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q2_train_003",
+    "question_id": "q2",
+    "style": "x_type_partial_correct",
+    "answer_text": "Osmosis is when water moves through a semipermeable membrane from an area of low solute concentration to high solute concentration.",
+    "ai_suggested_scores": {
+      "q2_c1": 2,
+      "q2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q2_train_004",
+    "question_id": "q2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Osmosis is the process by which plants absorb sunlight through their leaves to produce energy.",
+    "ai_suggested_scores": {
+      "q2_c1": 0,
+      "q2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q3_train_001",
+    "question_id": "q3",
+    "style": "x_type_full_correct",
+    "answer_text": "A stack follows LIFO (Last In First Out) order, meaning the most recently added element is the first one removed, like a stack of plates. A queue follows FIFO (First In First Out), where the first element added is the first one removed, like a line of people waiting.",
+    "ai_suggested_scores": {
+      "q3_c1": 2,
+      "q3_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q3_train_002",
+    "question_id": "q3",
+    "style": "x_type_longer_explanation",
+    "answer_text": "A stack is a linear data structure where insertion and removal both happen at the same end, called the top. This gives it Last In First Out behavior \u2014 the last item pushed onto the stack is the first one popped off. A queue, in contrast, inserts elements at the rear and removes them from the front, giving it First In First Out behavior, so the earliest inserted element is the first one to be removed.",
+    "ai_suggested_scores": {
+      "q3_c1": 2,
+      "q3_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q3_train_003",
+    "question_id": "q3",
+    "style": "x_type_partial_correct",
+    "answer_text": "A stack only allows you to add and remove elements from one end, following LIFO order.",
+    "ai_suggested_scores": {
+      "q3_c1": 2,
+      "q3_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q3_train_004",
+    "question_id": "q3",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "A stack and a queue are basically the same thing, just different names used in different programming languages.",
+    "ai_suggested_scores": {
+      "q3_c1": 0,
+      "q3_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q4_train_001",
+    "question_id": "q4",
+    "style": "x_type_full_correct",
+    "answer_text": "A variable is a named storage location in memory that holds a value which can change during program execution. For example, in Python, writing `age = 25` creates a variable called age that stores the value 25.",
+    "ai_suggested_scores": {
+      "q4_c1": 2,
+      "q4_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q4_train_002",
+    "question_id": "q4",
+    "style": "x_type_longer_explanation",
+    "answer_text": "In programming, a variable acts as a label for a location in a computer's memory where data can be stored and later retrieved or modified. Variables are given names so the programmer can refer to the stored value throughout the program. For instance, `total = 0` declares a variable named total and initializes it with the value zero, and later the program might update it with `total = total + 10`.",
+    "ai_suggested_scores": {
+      "q4_c1": 2,
+      "q4_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q4_train_003",
+    "question_id": "q4",
+    "style": "x_type_partial_correct",
+    "answer_text": "A variable is a name given to a value that can change while a program runs.",
+    "ai_suggested_scores": {
+      "q4_c1": 2,
+      "q4_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q4_train_004",
+    "question_id": "q4",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "A variable is a type of loop that repeats a block of code multiple times.",
+    "ai_suggested_scores": {
+      "q4_c1": 0,
+      "q4_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q5_train_001",
+    "question_id": "q5",
+    "style": "x_type_full_correct",
+    "answer_text": "The judiciary interprets the laws made by the legislature and ensures that they are consistent with the constitution. For example, courts can strike down a law through judicial review if it violates constitutional provisions.",
+    "ai_suggested_scores": {
+      "q5_c1": 2,
+      "q5_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q5_train_002",
+    "question_id": "q5",
+    "style": "x_type_longer_explanation",
+    "answer_text": "In a democracy, the judiciary serves as an independent branch responsible for interpreting and applying the law, as well as ensuring that legislation and executive actions remain within the bounds set by the constitution. One key function is judicial review, where courts can examine whether a law passed by the legislature is constitutional, and strike it down if it is not.",
+    "ai_suggested_scores": {
+      "q5_c1": 2,
+      "q5_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q5_train_003",
+    "question_id": "q5",
+    "style": "x_type_partial_correct",
+    "answer_text": "The judiciary's job is to interpret laws and make sure they follow the constitution.",
+    "ai_suggested_scores": {
+      "q5_c1": 2,
+      "q5_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q5_train_004",
+    "question_id": "q5",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "The judiciary is responsible for creating new laws and passing the annual budget for the country.",
+    "ai_suggested_scores": {
+      "q5_c1": 0,
+      "q5_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q6_train_001",
+    "question_id": "q6",
+    "style": "x_type_full_correct",
+    "answer_text": "Separation of powers divides government authority among the legislature, executive, and judiciary so that no single branch can dominate the others. This is reinforced through checks and balances, such as the judiciary being able to declare an executive action unconstitutional.",
+    "ai_suggested_scores": {
+      "q6_c1": 2,
+      "q6_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q6_train_002",
+    "question_id": "q6",
+    "style": "x_type_longer_explanation",
+    "answer_text": "Separation of powers is a foundational principle in democratic governance where authority is split between the legislature, which makes laws, the executive, which enforces them, and the judiciary, which interprets them. This division prevents any one branch from accumulating excessive power and becoming authoritarian. Checks and balances support this system \u2014 for example, the executive can veto legislation passed by the legislature, but the legislature can override that veto with a sufficient majority.",
+    "ai_suggested_scores": {
+      "q6_c1": 2,
+      "q6_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q6_train_003",
+    "question_id": "q6",
+    "style": "x_type_partial_correct",
+    "answer_text": "Separation of powers stops one branch of government from having too much control by dividing responsibilities among different branches.",
+    "ai_suggested_scores": {
+      "q6_c1": 2,
+      "q6_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "q6_train_004",
+    "question_id": "q6",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Separation of powers means that different states in a country are allowed to have their own separate governments.",
+    "ai_suggested_scores": {
+      "q6_c1": 0,
+      "q6_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b1_train_001",
+    "question_id": "b1",
+    "style": "x_type_full_correct",
+    "answer_text": "Red blood cells contain hemoglobin, a protein that binds oxygen in the lungs and carries it to tissues throughout the body. Unlike most other cells, mature red blood cells have no nucleus, which leaves more space for hemoglobin.",
+    "ai_suggested_scores": {
+      "b1_c1": 2,
+      "b1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b1_train_002",
+    "question_id": "b1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in biology. Red blood cells contain hemoglobin, a protein that binds oxygen in the lungs and carries it to tissues throughout the body. Unlike most other cells, mature red blood cells have no nucleus, which leaves more space for hemoglobin.",
+    "ai_suggested_scores": {
+      "b1_c1": 2,
+      "b1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b1_train_003",
+    "question_id": "b1",
+    "style": "x_type_partial_correct",
+    "answer_text": "Red blood cells carry oxygen around the body using hemoglobin.",
+    "ai_suggested_scores": {
+      "b1_c1": 2,
+      "b1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b1_train_004",
+    "question_id": "b1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Red blood cells produce antibodies to fight off infections in the bloodstream.",
+    "ai_suggested_scores": {
+      "b1_c1": 0,
+      "b1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b2_train_001",
+    "question_id": "b2",
+    "style": "x_type_full_correct",
+    "answer_text": "Enzymes are proteins that act as biological catalysts, speeding up chemical reactions in the body without being consumed or changed by the reaction themselves.",
+    "ai_suggested_scores": {
+      "b2_c1": 2,
+      "b2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b2_train_002",
+    "question_id": "b2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in biology. Enzymes are proteins that act as biological catalysts, speeding up chemical reactions in the body without being consumed or changed by the reaction themselves.",
+    "ai_suggested_scores": {
+      "b2_c1": 2,
+      "b2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b2_train_003",
+    "question_id": "b2",
+    "style": "x_type_partial_correct",
+    "answer_text": "Enzymes speed up chemical reactions happening in cells.",
+    "ai_suggested_scores": {
+      "b2_c1": 2,
+      "b2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "b2_train_004",
+    "question_id": "b2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Enzymes are a type of vitamin that the body stores in fat tissue for later use.",
+    "ai_suggested_scores": {
+      "b2_c1": 0,
+      "b2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c1_train_001",
+    "question_id": "c1",
+    "style": "x_type_full_correct",
+    "answer_text": "In an exothermic reaction, energy is released to the surroundings, usually in the form of heat, causing the temperature around the reaction to rise. Combustion, such as burning wood, is a common example.",
+    "ai_suggested_scores": {
+      "c1_c1": 2,
+      "c1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c1_train_002",
+    "question_id": "c1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in chemistry. In an exothermic reaction, energy is released to the surroundings, usually in the form of heat, causing the temperature around the reaction to rise. Combustion, such as burning wood, is a common example.",
+    "ai_suggested_scores": {
+      "c1_c1": 2,
+      "c1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c1_train_003",
+    "question_id": "c1",
+    "style": "x_type_partial_correct",
+    "answer_text": "An exothermic reaction releases energy to the surroundings.",
+    "ai_suggested_scores": {
+      "c1_c1": 2,
+      "c1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c1_train_004",
+    "question_id": "c1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "An exothermic reaction absorbs heat from the surroundings, causing the temperature to drop.",
+    "ai_suggested_scores": {
+      "c1_c1": 0,
+      "c1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c2_train_001",
+    "question_id": "c2",
+    "style": "x_type_full_correct",
+    "answer_text": "Acids release hydrogen ions when dissolved in water and have a pH below 7, while bases release hydroxide ions and have a pH above 7.",
+    "ai_suggested_scores": {
+      "c2_c1": 2,
+      "c2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c2_train_002",
+    "question_id": "c2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in chemistry. Acids release hydrogen ions when dissolved in water and have a pH below 7, while bases release hydroxide ions and have a pH above 7.",
+    "ai_suggested_scores": {
+      "c2_c1": 2,
+      "c2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c2_train_003",
+    "question_id": "c2",
+    "style": "x_type_partial_correct",
+    "answer_text": "Acids release hydrogen ions and have a pH below 7.",
+    "ai_suggested_scores": {
+      "c2_c1": 2,
+      "c2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "c2_train_004",
+    "question_id": "c2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Acids have a pH above 7 and bases have a pH below 7.",
+    "ai_suggested_scores": {
+      "c2_c1": 0,
+      "c2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p1_train_001",
+    "question_id": "p1",
+    "style": "x_type_full_correct",
+    "answer_text": "Newton's third law states that for every action force, there is an equal and opposite reaction force. For example, when you push against a wall, the wall pushes back on you with equal force.",
+    "ai_suggested_scores": {
+      "p1_c1": 2,
+      "p1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p1_train_002",
+    "question_id": "p1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in physics. Newton's third law states that for every action force, there is an equal and opposite reaction force. For example, when you push against a wall, the wall pushes back on you with equal force.",
+    "ai_suggested_scores": {
+      "p1_c1": 2,
+      "p1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p1_train_003",
+    "question_id": "p1",
+    "style": "x_type_partial_correct",
+    "answer_text": "For every action there is an equal and opposite reaction.",
+    "ai_suggested_scores": {
+      "p1_c1": 2,
+      "p1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p1_train_004",
+    "question_id": "p1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Newton's third law states that objects in motion stay in motion unless acted on by an external force.",
+    "ai_suggested_scores": {
+      "p1_c1": 0,
+      "p1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p2_train_001",
+    "question_id": "p2",
+    "style": "x_type_full_correct",
+    "answer_text": "An object floats or sinks depending on how its density compares to water: if the object is less dense than water, the buoyant force pushes it up and it floats; if denser, it sinks. Wood floats because it is less dense than water, while a steel nail sinks because it is denser.",
+    "ai_suggested_scores": {
+      "p2_c1": 2,
+      "p2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p2_train_002",
+    "question_id": "p2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in physics. An object floats or sinks depending on how its density compares to water: if the object is less dense than water, the buoyant force pushes it up and it floats; if denser, it sinks. Wood floats because it is less dense than water, while a steel nail sinks because it is denser.",
+    "ai_suggested_scores": {
+      "p2_c1": 2,
+      "p2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p2_train_003",
+    "question_id": "p2",
+    "style": "x_type_partial_correct",
+    "answer_text": "Objects float if they are less dense than water.",
+    "ai_suggested_scores": {
+      "p2_c1": 2,
+      "p2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "p2_train_004",
+    "question_id": "p2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Objects float or sink depending only on their weight \u2014 heavier objects always float and lighter objects always sink.",
+    "ai_suggested_scores": {
+      "p2_c1": 0,
+      "p2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs1_train_001",
+    "question_id": "cs1",
+    "style": "x_type_full_correct",
+    "answer_text": "Recursion is when a function calls itself in order to solve a smaller instance of the same problem. A recursive function needs a base case, a condition that stops the recursive calls, otherwise it would call itself forever.",
+    "ai_suggested_scores": {
+      "cs1_c1": 2,
+      "cs1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs1_train_002",
+    "question_id": "cs1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in computer science. Recursion is when a function calls itself in order to solve a smaller instance of the same problem. A recursive function needs a base case, a condition that stops the recursive calls, otherwise it would call itself forever.",
+    "ai_suggested_scores": {
+      "cs1_c1": 2,
+      "cs1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs1_train_003",
+    "question_id": "cs1",
+    "style": "x_type_partial_correct",
+    "answer_text": "Recursion is when a function calls itself.",
+    "ai_suggested_scores": {
+      "cs1_c1": 2,
+      "cs1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs1_train_004",
+    "question_id": "cs1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Recursion is when a program runs two functions at the same time using multiple threads.",
+    "ai_suggested_scores": {
+      "cs1_c1": 0,
+      "cs1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs2_train_001",
+    "question_id": "cs2",
+    "style": "x_type_full_correct",
+    "answer_text": "A compiled language is translated entirely into machine code by a compiler before the program runs, producing an executable file. An interpreted language is executed line by line at runtime by an interpreter, without a separate compilation step.",
+    "ai_suggested_scores": {
+      "cs2_c1": 2,
+      "cs2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs2_train_002",
+    "question_id": "cs2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in computer science. A compiled language is translated entirely into machine code by a compiler before the program runs, producing an executable file. An interpreted language is executed line by line at runtime by an interpreter, without a separate compilation step.",
+    "ai_suggested_scores": {
+      "cs2_c1": 2,
+      "cs2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs2_train_003",
+    "question_id": "cs2",
+    "style": "x_type_partial_correct",
+    "answer_text": "A compiled language is translated into machine code before the program runs.",
+    "ai_suggested_scores": {
+      "cs2_c1": 2,
+      "cs2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cs2_train_004",
+    "question_id": "cs2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Compiled languages are executed line by line at runtime, while interpreted languages are translated into machine code ahead of time.",
+    "ai_suggested_scores": {
+      "cs2_c1": 0,
+      "cs2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m1_train_001",
+    "question_id": "m1",
+    "style": "x_type_full_correct",
+    "answer_text": "A prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. For example, 7 is prime because it can only be divided evenly by 1 and 7.",
+    "ai_suggested_scores": {
+      "m1_c1": 2,
+      "m1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m1_train_002",
+    "question_id": "m1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in mathematics. A prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. For example, 7 is prime because it can only be divided evenly by 1 and 7.",
+    "ai_suggested_scores": {
+      "m1_c1": 2,
+      "m1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m1_train_003",
+    "question_id": "m1",
+    "style": "x_type_partial_correct",
+    "answer_text": "A prime number can only be divided evenly by 1 and itself.",
+    "ai_suggested_scores": {
+      "m1_c1": 2,
+      "m1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m1_train_004",
+    "question_id": "m1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "A prime number is any number that is odd and cannot be divided by 2.",
+    "ai_suggested_scores": {
+      "m1_c1": 0,
+      "m1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m2_train_001",
+    "question_id": "m2",
+    "style": "x_type_full_correct",
+    "answer_text": "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse, the side opposite the right angle, equals the sum of the squares of the other two sides: a squared plus b squared equals c squared.",
+    "ai_suggested_scores": {
+      "m2_c1": 2,
+      "m2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m2_train_002",
+    "question_id": "m2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in mathematics. The Pythagorean theorem states that in a right triangle, the square of the hypotenuse, the side opposite the right angle, equals the sum of the squares of the other two sides: a squared plus b squared equals c squared.",
+    "ai_suggested_scores": {
+      "m2_c1": 2,
+      "m2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m2_train_003",
+    "question_id": "m2",
+    "style": "x_type_partial_correct",
+    "answer_text": "In a right triangle, a squared plus b squared equals c squared.",
+    "ai_suggested_scores": {
+      "m2_c1": 2,
+      "m2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "m2_train_004",
+    "question_id": "m2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "The Pythagorean theorem states that all three sides of a right triangle are always equal in length.",
+    "ai_suggested_scores": {
+      "m2_c1": 0,
+      "m2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv1_train_001",
+    "question_id": "cv1",
+    "style": "x_type_full_correct",
+    "answer_text": "A fundamental right is a basic right guaranteed to citizens by the constitution, which the state cannot ordinarily take away and which courts can enforce. The right to freedom of speech is a common example of a fundamental right.",
+    "ai_suggested_scores": {
+      "cv1_c1": 2,
+      "cv1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv1_train_002",
+    "question_id": "cv1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in civics. A fundamental right is a basic right guaranteed to citizens by the constitution, which the state cannot ordinarily take away and which courts can enforce. The right to freedom of speech is a common example of a fundamental right.",
+    "ai_suggested_scores": {
+      "cv1_c1": 2,
+      "cv1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv1_train_003",
+    "question_id": "cv1",
+    "style": "x_type_partial_correct",
+    "answer_text": "A fundamental right is a basic right guaranteed by the constitution.",
+    "ai_suggested_scores": {
+      "cv1_c1": 2,
+      "cv1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv1_train_004",
+    "question_id": "cv1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "A fundamental right is any privilege granted by the government that can be revoked at any time by a new law.",
+    "ai_suggested_scores": {
+      "cv1_c1": 0,
+      "cv1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv2_train_001",
+    "question_id": "cv2",
+    "style": "x_type_full_correct",
+    "answer_text": "The right to vote is the right of eligible citizens to choose their representatives or government through elections. It is usually granted to citizens who meet certain eligibility requirements, such as being above a minimum voting age.",
+    "ai_suggested_scores": {
+      "cv2_c1": 2,
+      "cv2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv2_train_002",
+    "question_id": "cv2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in civics. The right to vote is the right of eligible citizens to choose their representatives or government through elections. It is usually granted to citizens who meet certain eligibility requirements, such as being above a minimum voting age.",
+    "ai_suggested_scores": {
+      "cv2_c1": 2,
+      "cv2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv2_train_003",
+    "question_id": "cv2",
+    "style": "x_type_partial_correct",
+    "answer_text": "The right to vote is the right of citizens to elect their representatives.",
+    "ai_suggested_scores": {
+      "cv2_c1": 2,
+      "cv2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "cv2_train_004",
+    "question_id": "cv2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "The right to vote means the government chooses representatives on behalf of citizens without requiring an election.",
+    "ai_suggested_scores": {
+      "cv2_c1": 0,
+      "cv2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h1_train_001",
+    "question_id": "h1",
+    "style": "x_type_full_correct",
+    "answer_text": "The printing press, invented by Johannes Gutenberg, allowed books to be mass-produced much faster and more cheaply than by hand-copying. This led to a rapid spread of information and ideas, contributing to increased literacy and events like the Protestant Reformation.",
+    "ai_suggested_scores": {
+      "h1_c1": 2,
+      "h1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h1_train_002",
+    "question_id": "h1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in history. The printing press, invented by Johannes Gutenberg, allowed books to be mass-produced much faster and more cheaply than by hand-copying. This led to a rapid spread of information and ideas, contributing to increased literacy and events like the Protestant Reformation.",
+    "ai_suggested_scores": {
+      "h1_c1": 2,
+      "h1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h1_train_003",
+    "question_id": "h1",
+    "style": "x_type_partial_correct",
+    "answer_text": "The printing press allowed books to be produced much faster than by hand-copying.",
+    "ai_suggested_scores": {
+      "h1_c1": 2,
+      "h1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h1_train_004",
+    "question_id": "h1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "The printing press was mainly used to produce clothing and textiles more efficiently during the Industrial Revolution.",
+    "ai_suggested_scores": {
+      "h1_c1": 0,
+      "h1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h2_train_001",
+    "question_id": "h2",
+    "style": "x_type_full_correct",
+    "answer_text": "World War I was immediately triggered by the assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914. This event set off a chain reaction among European alliance systems, combined with rising militarism and nationalism, that escalated into a full-scale war.",
+    "ai_suggested_scores": {
+      "h2_c1": 2,
+      "h2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h2_train_002",
+    "question_id": "h2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in history. World War I was immediately triggered by the assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914. This event set off a chain reaction among European alliance systems, combined with rising militarism and nationalism, that escalated into a full-scale war.",
+    "ai_suggested_scores": {
+      "h2_c1": 2,
+      "h2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h2_train_003",
+    "question_id": "h2",
+    "style": "x_type_partial_correct",
+    "answer_text": "World War I was triggered by the assassination of Archduke Franz Ferdinand.",
+    "ai_suggested_scores": {
+      "h2_c1": 2,
+      "h2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "h2_train_004",
+    "question_id": "h2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "World War I began because of a direct invasion of France by the United States over trade disagreements.",
+    "ai_suggested_scores": {
+      "h2_c1": 0,
+      "h2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g1_train_001",
+    "question_id": "g1",
+    "style": "x_type_full_correct",
+    "answer_text": "Seasons are caused by the tilt of Earth's axis, not by changes in distance from the sun. As Earth orbits the sun, this tilt causes different hemispheres to receive more or less direct sunlight at different times of year, creating summer, winter, and the seasons in between.",
+    "ai_suggested_scores": {
+      "g1_c1": 2,
+      "g1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g1_train_002",
+    "question_id": "g1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in geography. Seasons are caused by the tilt of Earth's axis, not by changes in distance from the sun. As Earth orbits the sun, this tilt causes different hemispheres to receive more or less direct sunlight at different times of year, creating summer, winter, and the seasons in between.",
+    "ai_suggested_scores": {
+      "g1_c1": 2,
+      "g1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g1_train_003",
+    "question_id": "g1",
+    "style": "x_type_partial_correct",
+    "answer_text": "Seasons are caused by the tilt of Earth's axis.",
+    "ai_suggested_scores": {
+      "g1_c1": 2,
+      "g1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g1_train_004",
+    "question_id": "g1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Seasons happen because Earth's distance from the sun changes significantly throughout the year, getting much closer in summer.",
+    "ai_suggested_scores": {
+      "g1_c1": 0,
+      "g1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g2_train_001",
+    "question_id": "g2",
+    "style": "x_type_full_correct",
+    "answer_text": "A delta is a landform created when a river deposits sediment as it flows into a larger body of water, such as an ocean or lake, causing the river to split into multiple smaller channels. The Nile Delta in Egypt is a well-known example.",
+    "ai_suggested_scores": {
+      "g2_c1": 2,
+      "g2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g2_train_002",
+    "question_id": "g2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in geography. A delta is a landform created when a river deposits sediment as it flows into a larger body of water, such as an ocean or lake, causing the river to split into multiple smaller channels. The Nile Delta in Egypt is a well-known example.",
+    "ai_suggested_scores": {
+      "g2_c1": 2,
+      "g2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g2_train_003",
+    "question_id": "g2",
+    "style": "x_type_partial_correct",
+    "answer_text": "A delta is a landform created by sediment deposited where a river meets the sea.",
+    "ai_suggested_scores": {
+      "g2_c1": 2,
+      "g2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "g2_train_004",
+    "question_id": "g2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "A delta is a type of mountain range formed by the collision of tectonic plates.",
+    "ai_suggested_scores": {
+      "g2_c1": 0,
+      "g2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e1_train_001",
+    "question_id": "e1",
+    "style": "x_type_full_correct",
+    "answer_text": "The law of supply and demand states that when demand for a good exceeds its supply, the price tends to rise, and when supply exceeds demand, the price tends to fall. For example, prices for a popular new phone often rise when initial demand outpaces available stock.",
+    "ai_suggested_scores": {
+      "e1_c1": 2,
+      "e1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e1_train_002",
+    "question_id": "e1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in economics. The law of supply and demand states that when demand for a good exceeds its supply, the price tends to rise, and when supply exceeds demand, the price tends to fall. For example, prices for a popular new phone often rise when initial demand outpaces available stock.",
+    "ai_suggested_scores": {
+      "e1_c1": 2,
+      "e1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e1_train_003",
+    "question_id": "e1",
+    "style": "x_type_partial_correct",
+    "answer_text": "Prices rise when demand for a good exceeds its supply.",
+    "ai_suggested_scores": {
+      "e1_c1": 2,
+      "e1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e1_train_004",
+    "question_id": "e1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "The law of supply and demand states that prices are fixed by the government regardless of how much of a good is available.",
+    "ai_suggested_scores": {
+      "e1_c1": 0,
+      "e1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e2_train_001",
+    "question_id": "e2",
+    "style": "x_type_full_correct",
+    "answer_text": "Inflation is a general and sustained increase in the prices of goods and services over time, which reduces the purchasing power of money. For example, if inflation is high, the same amount of money buys fewer groceries than it did a year earlier.",
+    "ai_suggested_scores": {
+      "e2_c1": 2,
+      "e2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e2_train_002",
+    "question_id": "e2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in economics. Inflation is a general and sustained increase in the prices of goods and services over time, which reduces the purchasing power of money. For example, if inflation is high, the same amount of money buys fewer groceries than it did a year earlier.",
+    "ai_suggested_scores": {
+      "e2_c1": 2,
+      "e2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e2_train_003",
+    "question_id": "e2",
+    "style": "x_type_partial_correct",
+    "answer_text": "Inflation is a sustained increase in the prices of goods and services over time.",
+    "ai_suggested_scores": {
+      "e2_c1": 2,
+      "e2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "e2_train_004",
+    "question_id": "e2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Inflation refers to a decrease in the total amount of money circulating in an economy.",
+    "ai_suggested_scores": {
+      "e2_c1": 0,
+      "e2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev1_train_001",
+    "question_id": "ev1",
+    "style": "x_type_full_correct",
+    "answer_text": "The greenhouse effect occurs when gases in the atmosphere, such as carbon dioxide, trap heat radiating from Earth's surface, warming the planet. Without any greenhouse effect, Earth would be far too cold to support most life.",
+    "ai_suggested_scores": {
+      "ev1_c1": 2,
+      "ev1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev1_train_002",
+    "question_id": "ev1",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in environmental science. The greenhouse effect occurs when gases in the atmosphere, such as carbon dioxide, trap heat radiating from Earth's surface, warming the planet. Without any greenhouse effect, Earth would be far too cold to support most life.",
+    "ai_suggested_scores": {
+      "ev1_c1": 2,
+      "ev1_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev1_train_003",
+    "question_id": "ev1",
+    "style": "x_type_partial_correct",
+    "answer_text": "The greenhouse effect happens when certain gases trap heat in the atmosphere.",
+    "ai_suggested_scores": {
+      "ev1_c1": 2,
+      "ev1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev1_train_004",
+    "question_id": "ev1",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "The greenhouse effect occurs when sunlight is completely blocked from reaching Earth's surface by clouds.",
+    "ai_suggested_scores": {
+      "ev1_c1": 0,
+      "ev1_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev2_train_001",
+    "question_id": "ev2",
+    "style": "x_type_full_correct",
+    "answer_text": "Biodiversity refers to the variety of living species found within an ecosystem or across the planet, including plants, animals, and microorganisms. High biodiversity generally makes ecosystems more stable and resilient to disturbances.",
+    "ai_suggested_scores": {
+      "ev2_c1": 2,
+      "ev2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev2_train_002",
+    "question_id": "ev2",
+    "style": "x_type_longer_explanation",
+    "answer_text": "This is a foundational concept in environmental science. Biodiversity refers to the variety of living species found within an ecosystem or across the planet, including plants, animals, and microorganisms. High biodiversity generally makes ecosystems more stable and resilient to disturbances.",
+    "ai_suggested_scores": {
+      "ev2_c1": 2,
+      "ev2_c2": 2
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev2_train_003",
+    "question_id": "ev2",
+    "style": "x_type_partial_correct",
+    "answer_text": "Biodiversity refers to the variety of living species in an ecosystem.",
+    "ai_suggested_scores": {
+      "ev2_c1": 2,
+      "ev2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  },
+  {
+    "answer_id": "ev2_train_004",
+    "question_id": "ev2",
+    "style": "x_type_clearly_incorrect",
+    "answer_text": "Biodiversity refers to the total number of humans living in a particular country or region.",
+    "ai_suggested_scores": {
+      "ev2_c1": 0,
+      "ev2_c2": 0
+    },
+    "human_reviewed": false,
+    "ai_generated": true
+  }
+]

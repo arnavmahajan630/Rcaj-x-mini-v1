@@ -1,0 +1,1250 @@
+[
+  {
+    "test_id": "q1_test_001",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "q1_test_002",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "q1_test_003",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "q1_test_004",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "q1_test_005",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "q1_test_006",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "q1_test_007",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "q1_test_008",
+    "derived_from_train_id": "q1_train_001",
+    "question_id": "q1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "q2_test_001",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "q2_test_002",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "q2_test_003",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "q2_test_004",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "q2_test_005",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "q2_test_006",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "q2_test_007",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "q2_test_008",
+    "derived_from_train_id": "q2_train_001",
+    "question_id": "q2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "q3_test_001",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "q3_test_002",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "q3_test_003",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "q3_test_004",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "q3_test_005",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "q3_test_006",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "q3_test_007",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "q3_test_008",
+    "derived_from_train_id": "q3_train_001",
+    "question_id": "q3",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "q4_test_001",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "q4_test_002",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "q4_test_003",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "q4_test_004",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "q4_test_005",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "q4_test_006",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "q4_test_007",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "q4_test_008",
+    "derived_from_train_id": "q4_train_001",
+    "question_id": "q4",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "q5_test_001",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "q5_test_002",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "q5_test_003",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "q5_test_004",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "q5_test_005",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "q5_test_006",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "q5_test_007",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "q5_test_008",
+    "derived_from_train_id": "q5_train_001",
+    "question_id": "q5",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "q6_test_001",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "q6_test_002",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "q6_test_003",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "q6_test_004",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "q6_test_005",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "q6_test_006",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "q6_test_007",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "q6_test_008",
+    "derived_from_train_id": "q6_train_001",
+    "question_id": "q6",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "b1_test_001",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "b1_test_002",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "b1_test_003",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "b1_test_004",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "b1_test_005",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "b1_test_006",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "b1_test_007",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "b1_test_008",
+    "derived_from_train_id": "b1_train_001",
+    "question_id": "b1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "b2_test_001",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "b2_test_002",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "b2_test_003",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "b2_test_004",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "b2_test_005",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "b2_test_006",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "b2_test_007",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "b2_test_008",
+    "derived_from_train_id": "b2_train_001",
+    "question_id": "b2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "c1_test_001",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "c1_test_002",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "c1_test_003",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "c1_test_004",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "c1_test_005",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "c1_test_006",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "c1_test_007",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "c1_test_008",
+    "derived_from_train_id": "c1_train_001",
+    "question_id": "c1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "c2_test_001",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "c2_test_002",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "c2_test_003",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "c2_test_004",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "c2_test_005",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "c2_test_006",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "c2_test_007",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "c2_test_008",
+    "derived_from_train_id": "c2_train_001",
+    "question_id": "c2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "p1_test_001",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "p1_test_002",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "p1_test_003",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "p1_test_004",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "p1_test_005",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "p1_test_006",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "p1_test_007",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "p1_test_008",
+    "derived_from_train_id": "p1_train_001",
+    "question_id": "p1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "p2_test_001",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "p2_test_002",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "p2_test_003",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "p2_test_004",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "p2_test_005",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "p2_test_006",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "p2_test_007",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "p2_test_008",
+    "derived_from_train_id": "p2_train_001",
+    "question_id": "p2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "cs1_test_001",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "cs1_test_002",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "cs1_test_003",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "cs1_test_004",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "cs1_test_005",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "cs1_test_006",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "cs1_test_007",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "cs1_test_008",
+    "derived_from_train_id": "cs1_train_001",
+    "question_id": "cs1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "cs2_test_001",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "cs2_test_002",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "cs2_test_003",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "cs2_test_004",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "cs2_test_005",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "cs2_test_006",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "cs2_test_007",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "cs2_test_008",
+    "derived_from_train_id": "cs2_train_001",
+    "question_id": "cs2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "m1_test_001",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "m1_test_002",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "m1_test_003",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "m1_test_004",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "m1_test_005",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "m1_test_006",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "m1_test_007",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "m1_test_008",
+    "derived_from_train_id": "m1_train_001",
+    "question_id": "m1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "m2_test_001",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "m2_test_002",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "m2_test_003",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "m2_test_004",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "m2_test_005",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "m2_test_006",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "m2_test_007",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "m2_test_008",
+    "derived_from_train_id": "m2_train_001",
+    "question_id": "m2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "cv1_test_001",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "cv1_test_002",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "cv1_test_003",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "cv1_test_004",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "cv1_test_005",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "cv1_test_006",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "cv1_test_007",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "cv1_test_008",
+    "derived_from_train_id": "cv1_train_001",
+    "question_id": "cv1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "cv2_test_001",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "cv2_test_002",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "cv2_test_003",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "cv2_test_004",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "cv2_test_005",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "cv2_test_006",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "cv2_test_007",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "cv2_test_008",
+    "derived_from_train_id": "cv2_train_001",
+    "question_id": "cv2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "h1_test_001",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "h1_test_002",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "h1_test_003",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "h1_test_004",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "h1_test_005",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "h1_test_006",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "h1_test_007",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "h1_test_008",
+    "derived_from_train_id": "h1_train_001",
+    "question_id": "h1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "h2_test_001",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "h2_test_002",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "h2_test_003",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "h2_test_004",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "h2_test_005",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "h2_test_006",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "h2_test_007",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "h2_test_008",
+    "derived_from_train_id": "h2_train_001",
+    "question_id": "h2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "g1_test_001",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "g1_test_002",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "g1_test_003",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "g1_test_004",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "g1_test_005",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "g1_test_006",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "g1_test_007",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "g1_test_008",
+    "derived_from_train_id": "g1_train_001",
+    "question_id": "g1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "g2_test_001",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "g2_test_002",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "g2_test_003",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "g2_test_004",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "g2_test_005",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "g2_test_006",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "g2_test_007",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "g2_test_008",
+    "derived_from_train_id": "g2_train_001",
+    "question_id": "g2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "e1_test_001",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "e1_test_002",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "e1_test_003",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "e1_test_004",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "e1_test_005",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "e1_test_006",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "e1_test_007",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "e1_test_008",
+    "derived_from_train_id": "e1_train_001",
+    "question_id": "e1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "e2_test_001",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "e2_test_002",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "e2_test_003",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "e2_test_004",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "e2_test_005",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "e2_test_006",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "e2_test_007",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "e2_test_008",
+    "derived_from_train_id": "e2_train_001",
+    "question_id": "e2",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "ev1_test_001",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "ev1_test_002",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "ev1_test_003",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "ev1_test_004",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "ev1_test_005",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "ev1_test_006",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "ev1_test_007",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "ev1_test_008",
+    "derived_from_train_id": "ev1_train_001",
+    "question_id": "ev1",
+    "variant_type": "genuinely_ambiguous"
+  },
+  {
+    "test_id": "ev2_test_001",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "paraphrase"
+  },
+  {
+    "test_id": "ev2_test_002",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "scattered_evidence"
+  },
+  {
+    "test_id": "ev2_test_003",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "diffuse_padded"
+  },
+  {
+    "test_id": "ev2_test_004",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "partial_credit_shift"
+  },
+  {
+    "test_id": "ev2_test_005",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "negation_flipped"
+  },
+  {
+    "test_id": "ev2_test_006",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "confidently_wrong"
+  },
+  {
+    "test_id": "ev2_test_007",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "typo_injected"
+  },
+  {
+    "test_id": "ev2_test_008",
+    "derived_from_train_id": "ev2_train_001",
+    "question_id": "ev2",
+    "variant_type": "genuinely_ambiguous"
+  }
+]

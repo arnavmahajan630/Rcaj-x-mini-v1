@@ -1,0 +1,45 @@
+# Environments & Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PyTorch / ML Model Weights & Embedded Data Tensors
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+checkpoints/
+
+# Generated Data & Intermediate Artifacts
+data/*_embedded.pt
+data/friend_model_predictions.csv
+
+# Streamlit Local Config / Cache
+.streamlit/
+
+# Generated Outputs & Logs
+results/
+*.log
+
+# Operating System
+Thumbs.db

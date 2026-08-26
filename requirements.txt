@@ -1,0 +1,8 @@
+torch>=2.2
+sentence-transformers
+scikit-learn
+pandas
+numpy
+spacy
+python-Levenshtein
+streamlit
