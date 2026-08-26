@@ -30,7 +30,8 @@ def build_reason_text(criterion_text, score, max_marks, top_chunks, top_weights,
             f"({evidence_str}) but it does not fully satisfy '{criterion_text}'.")
 
 def generate_explanation(model, R, A, raw_chunks, criteria, negation_flags, spread_threshold=0.4):
-    out = model(R, A, negation_flags)
+    max_marks = torch.tensor([c["max_marks"] for c in criteria], dtype=torch.float32)
+    out = model(R, A, negation_flags, max_marks)
     weights = out["attn_weights"]              # (h, n_c, n_a)
     scores = out["per_criterion_scores"]
     spread = out["spread"]                      # (n_c, h)
@@ -71,6 +72,21 @@ def generate_explanation(model, R, A, raw_chunks, criteria, negation_flags, spre
             "reason_text": reason,
         })
     return explanations
+
+def check_explanation_score_consistency(explanation):
+    """
+    Flags cases where the qualitative reasoning and the quantitative score disagree.
+    This doesn't fix a disagreement — it surfaces it, which is what was missing before.
+    """
+    pct = explanation["score"] / explanation["max_marks"] if explanation["max_marks"] else 0
+    flags = []
+    if explanation["confidence"] == "review_recommended" and pct > 0.85:
+        flags.append("HIGH SPREAD (ambiguous) but score is near-max — inconsistent")
+    if explanation["negation_flag"] and pct > 0.5:
+        flags.append("Negation mismatch flagged but score is above half-credit — inconsistent")
+    if "does not fully satisfy" in explanation["reason_text"] and pct > 0.85:
+        flags.append("Reason text says partial match but score is near-max — inconsistent")
+    return flags
 
 def check_evidence_grounding(explanation, raw_chunks):
     return all(c in raw_chunks for c in explanation["evidence_chunks"])

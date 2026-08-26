@@ -14,7 +14,7 @@ def evaluate_loss(model, examples, loss_fn):
     total = 0.0
     with torch.no_grad():
         for ex in examples:
-            out = model(ex["R"], ex["A"], ex["negation_flags"])
+            out = model(ex["R"], ex["A"], ex["negation_flags"], ex["max_marks"])
             target = torch.tensor(list(ex["human_scores"].values()), dtype=torch.float32)
             total += loss_fn(out["per_criterion_scores"], target).item()
     return total / len(examples) if examples else 0.0
@@ -31,7 +31,7 @@ def train_one_config(train_examples, val_examples, n_heads, d_k, lr, weight_deca
         model.train()
         for ex in train_examples:
             optimizer.zero_grad()
-            out = model(ex["R"], ex["A"], ex["negation_flags"])
+            out = model(ex["R"], ex["A"], ex["negation_flags"], ex["max_marks"])
             target = torch.tensor(list(ex["human_scores"].values()), dtype=torch.float32)
             loss = loss_fn(out["per_criterion_scores"], target)
             loss.backward()
@@ -78,7 +78,12 @@ def compute_mean_baseline(train_examples, val_examples, loss_fn):
 def run_training():
     print("Loading training data...")
     all_train_examples = torch.load("data/train_embedded.pt", weights_only=False)
-    
+
+    for ex in all_train_examples:
+        targets = torch.tensor(list(ex["human_scores"].values()), dtype=torch.float32)
+        assert torch.all(targets >= 0) and torch.all(targets <= ex["max_marks"]), \
+            f"human_scores out of [0, max_marks] range for {ex['answer_id']}"
+
     # Needs at least enough examples to stratify
     try:
         train_examples, val_examples = train_test_split(

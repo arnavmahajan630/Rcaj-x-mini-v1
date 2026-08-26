@@ -31,8 +31,15 @@ __pycache__/
 checkpoints/
 
 # Generated Data & Intermediate Artifacts
+# Dataset JSON is fully regenerable via scripts/generate_semantic_variants.py,
+# scripts/generate_variants.py, and scripts/build_dataset_manifest.py — not stored in git.
+# data/raw/rubrics.json is the one hand-authored exception and stays tracked.
+data/train/
+data/test/
+data/dataset_manifest.json
 data/*_embedded.pt
 data/friend_model_predictions.csv
+data/rubric_cache/
 
 # Streamlit Local Config / Cache
 .streamlit/

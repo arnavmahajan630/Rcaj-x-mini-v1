@@ -12,7 +12,7 @@ except OSError:
     spacy.cli.download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
 
-encoder = SentenceTransformer('BAAI/bge-small-en-v1.5')
+encoder = SentenceTransformer('checkpoints/bge_small_finetuned')
 NEGATION_WORDS = {"not", "no", "never", "cannot", "isn't", "doesn't", "won't", "n't", "lacks", "fails"}
 
 def chunk_answer(text: str) -> list[str]:
@@ -74,14 +74,21 @@ def build_glossary(rubrics):
                     glossary[term] = token.text
     return glossary
 
-def embed_example(criteria_texts: list[str], answer_text: str, glossary: dict) -> dict:
+def embed_criteria(criteria_texts: list[str]) -> torch.Tensor:
+    return encoder.encode(criteria_texts, convert_to_tensor=True).cpu()
+
+def embed_answer(answer_text: str, glossary: dict) -> dict:
     chunks = chunk_answer(answer_text)
     if not chunks:
         chunks = [""] # Handle empty answers
     normalized_chunks = [normalize_spelling(c, glossary) for c in chunks]
-    R = encoder.encode(criteria_texts, convert_to_tensor=True).cpu()
     A = encoder.encode(normalized_chunks, convert_to_tensor=True).cpu()
-    return {"R": R, "A": A, "chunks": chunks, "normalized_chunks": normalized_chunks}
+    return {"A": A, "chunks": chunks, "normalized_chunks": normalized_chunks}
+
+def embed_example(criteria_texts: list[str], answer_text: str, glossary: dict) -> dict:
+    R = embed_criteria(criteria_texts)
+    ans = embed_answer(answer_text, glossary)
+    return {"R": R, "A": ans["A"], "chunks": ans["chunks"], "normalized_chunks": ans["normalized_chunks"]}
 
 def negation_mismatch_flag(criterion_text: str, top_chunk_text: str) -> float:
     c_neg = any(w in criterion_text.lower().split() for w in NEGATION_WORDS)
@@ -135,6 +142,7 @@ def preprocess_dataset(split: str):
         data["chunks"] = embedded["chunks"]
         data["normalized_chunks"] = embedded["normalized_chunks"]
         data["negation_flags"] = torch.tensor(neg_flags, dtype=torch.float32)
+        data["max_marks"] = torch.tensor([c["max_marks"] for c in rubric["criteria"]], dtype=torch.float32)
         
         examples.append(data)
         

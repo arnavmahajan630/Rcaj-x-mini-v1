@@ -35,13 +35,17 @@ class ScoringHead(nn.Module):
             nn.Linear(hidden, 1)
         )
 
-    def forward(self, context: torch.Tensor, weights: torch.Tensor, negation_flags: torch.Tensor):
+    def forward(self, context: torch.Tensor, weights: torch.Tensor, negation_flags: torch.Tensor, max_marks: torch.Tensor):
         # weights: (h, n_c, n_a) -> spread per head per criterion
         max_w = weights.max(dim=-1).values      # (h, n_c)
         mean_w = weights.mean(dim=-1)            # (h, n_c)
         spread = (max_w - mean_w).transpose(0, 1)  # (n_c, h)
         x = torch.cat([context, spread, negation_flags.unsqueeze(-1)], dim=-1)
-        return self.mlp(x).squeeze(-1), spread     # return spread too, needed for benchmark analysis
+        raw = self.mlp(x).squeeze(-1)
+        # Bound to [0, max_marks] via sigmoid scaling (constrains the function's range,
+        # not just a post-hoc clamp) — see rcaj-x-hardening-plan/01 for why clamping alone isn't enough.
+        bounded_score = torch.sigmoid(raw) * max_marks
+        return bounded_score, spread     # return spread too, needed for benchmark analysis
 
 class RCAJ_X(nn.Module):
     def __init__(self, d_model: int = 384, n_heads: int = 4, d_k: int = 64, d_v: int = 64, hidden: int = 32):
@@ -49,9 +53,9 @@ class RCAJ_X(nn.Module):
         self.attn = MultiHeadCrossAttention(d_model, n_heads, d_k, d_v)
         self.score_head = ScoringHead(d_model, n_heads, hidden)
 
-    def forward(self, R: torch.Tensor, A: torch.Tensor, negation_flags: torch.Tensor, criterion_weights: torch.Tensor = None):
+    def forward(self, R: torch.Tensor, A: torch.Tensor, negation_flags: torch.Tensor, max_marks: torch.Tensor, criterion_weights: torch.Tensor = None):
         context, weights = self.attn(R, A)
-        per_criterion_scores, spread = self.score_head(context, weights, negation_flags)
+        per_criterion_scores, spread = self.score_head(context, weights, negation_flags, max_marks)
         final_score = None
         if criterion_weights is not None:
             final_score = (per_criterion_scores * criterion_weights).sum()

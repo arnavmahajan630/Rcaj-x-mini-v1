@@ -2,6 +2,12 @@ import json
 import os
 import shutil
 
+# NOTE: datainj/ no longer exists in this repo; this script is a historical one-time
+# ingestion step, not part of the current data workflow. New synthetic data is authored
+# directly into data/train, data/test, data/raw/rubrics.json — see
+# scripts/generate_semantic_variants.py, scripts/generate_variants.py, and
+# scripts/build_dataset_manifest.py instead.
+
 def clear_directory(directory):
     if os.path.exists(directory):
         shutil.rmtree(directory)
