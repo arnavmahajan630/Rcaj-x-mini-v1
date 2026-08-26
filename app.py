@@ -42,28 +42,46 @@ test_examples = load_test_examples()
 
 st.title("RCAJ-X — Grading Test Console")
 
-question = st.selectbox("Question", rubrics, format_func=lambda q: q["question_text"])
+question = st.selectbox("Question", rubrics, format_func=lambda q: f"[{q['question_id'].upper()}] ({q['subject'].title()}) — {q['question_text']}")
+
+# Display Rubric Criteria Breakdown
+with st.expander("📋 Active Rubric & Criteria Breakdown", expanded=True):
+    st.markdown(f"**Question ID:** `{question['question_id']}` | **Subject:** `{question['subject'].title()}`")
+    st.markdown(f"**Question Prompt:** {question['question_text']}")
+    st.markdown("**Evaluation Criteria:**")
+    for idx, c in enumerate(question["criteria"], 1):
+        st.markdown(f"- **{c['criterion_id']}** (*Max Marks: {c['max_marks']}*): {c['text']}")
 
 def load_matching_test_examples(q_id):
     return [ex for ex in test_examples if ex["question_id"] == q_id]
 
 matching_examples = load_matching_test_examples(question["question_id"])
-preset_options = ["-- none --"] + [f"{ex['answer_id']} ({ex['variant_type']})" for ex in matching_examples]
+preset_options = ["-- None (Type custom answer) --"] + [f"{ex['answer_id']} ({ex.get('variant_type', ex.get('style', 'preset'))})" for ex in matching_examples]
 
-preset = st.selectbox("Load a preset test example (optional)", preset_options)
+preset = st.selectbox("Select Preset Test Case", preset_options)
 
-def get_preset_text(preset_label):
-    if preset_label == "-- none --":
-        return ""
-    ans_id = preset_label.split(" (")[0]
+selected_example = None
+if preset != "-- None (Type custom answer) --":
+    ans_id = preset.split(" (")[0]
     for ex in matching_examples:
         if ex["answer_id"] == ans_id:
-            return ex["answer_text"]
-    return ""
+            selected_example = ex
+            break
 
-default_text = get_preset_text(preset)
+if selected_example:
+    with st.container(border=True):
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown(f"**Selected Test Case:** `{selected_example['answer_id']}`")
+            st.markdown(f"**Stress-Test Variant:** `{selected_example.get('variant_type', selected_example.get('style', 'preset'))}`")
+        with col2:
+            scores = selected_example.get("human_scores", selected_example.get("ai_suggested_scores", {}))
+            score_str = ", ".join([f"{k}: {v}" for k, v in scores.items()])
+            st.markdown(f"**Ground Truth Target Marks:** `{score_str}`")
 
-answer_text = st.text_area("Student Answer", value=default_text, height=200)
+default_text = selected_example["answer_text"] if selected_example else ""
+
+answer_text = st.text_area("Student Answer", value=default_text, height=180)
 
 if st.button("Grade Answer"):
     if not answer_text.strip():
